@@ -51,6 +51,7 @@ dependencies {
 
     // Dependencies
     implementation Dependencies.dagger
+    //lOOK LIKE THE FIRESOTRE DOES NOT WORK WITH API BELOW 21
     implementation Dependencies.firebase_firestore
     implementation Dependencies.firebase_auth
     implementation Dependencies.firebase_analytics

@@ -11,7 +11,7 @@ object Versions {
     val nav_components = "2.3.0-alpha06"
     val material_dialogs = "3.2.1"
     val room = "2.1.0"
-    val appcompat = "1.1.0-rc01"
+    val appcompat = "1.2.0"
     val constraintlayout = "1.1.3"
     val material_design = "1.1.0"
     val play_core = "1.7.1"

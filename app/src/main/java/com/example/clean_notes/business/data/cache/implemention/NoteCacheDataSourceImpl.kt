@@ -2,6 +2,7 @@ package com.example.clean_notes.business.data.cache.implemention
 
 import com.example.clean_notes.business.data.cache.abstraction.NoteCacheDataSource
 import com.example.clean_notes.business.domain.model.Note
+import com.example.clean_notes.framework.datasource.cache.abstraction.NoteDaoService
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -10,7 +11,7 @@ class NoteCacheDataSourceImpl
 @Inject
 constructor(
     private val noteDaoService: NoteDaoService
-): NoteCacheDataSource {
+) : NoteCacheDataSource {
 
     override suspend fun insertNote(note: Note): Long {
         return noteDaoService.insertNote(note)
@@ -48,7 +49,7 @@ constructor(
         return noteDaoService.getNumNotes()
     }
 
-    override suspend fun insertNotes(notes: List<Note>): LongArray{
+    override suspend fun insertNotes(notes: List<Note>): LongArray {
         return noteDaoService.insertNotes(notes)
     }
 }

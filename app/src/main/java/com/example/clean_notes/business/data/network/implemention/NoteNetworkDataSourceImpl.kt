@@ -2,6 +2,7 @@ package com.example.clean_notes.business.data.network.implemention
 
 import com.example.clean_notes.business.data.network.abstraction.NoteNetworkDataSource
 import com.example.clean_notes.business.domain.model.Note
+import com.example.clean_notes.framework.datasource.network.abstraction.NoteFirestoreService
 import javax.inject.Inject
 import javax.inject.Singleton
 

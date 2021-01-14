@@ -12,7 +12,7 @@ class GetNumNotes(
     private val noteCacheDataSource: NoteCacheDataSource
 ) {
 
-    fun getNumOfNotes(
+    fun getNumNotes(
         stateEvent: StateEvent
     ): Flow<DataState<NoteListViewState>?> = flow {
 

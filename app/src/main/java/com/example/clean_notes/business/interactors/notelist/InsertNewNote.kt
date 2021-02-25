@@ -1,4 +1,4 @@
-package com.example.clean_notes.business.interaction.notelist
+package com.example.clean_notes.business.interactors.notelist
 
 import com.example.clean_notes.business.data.cache.CacheResponseHandler
 import com.example.clean_notes.business.data.cache.abstraction.NoteCacheDataSource

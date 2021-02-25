@@ -25,6 +25,10 @@ constructor(
         return noteDaoService.deleteNotes(notes)
     }
 
+    override suspend fun getAllNotes(): List<Note> {
+        return noteDaoService.getAllNotes()
+    }
+
     override suspend fun updateNote(
         primaryKey: String,
         newTitle: String,

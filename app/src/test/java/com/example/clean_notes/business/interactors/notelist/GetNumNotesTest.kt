@@ -3,8 +3,7 @@ package com.example.clean_notes.business.interactors.notelist
 import com.example.clean_notes.business.data.cache.abstraction.NoteCacheDataSource
 import com.example.clean_notes.business.domain.model.NoteFactory
 import com.example.clean_notes.business.domain.state.DataState
-import com.example.clean_notes.business.interaction.notelist.GetNumNotes
-import com.example.clean_notes.business.interaction.notelist.GetNumNotes.Companion.GET_NUM_NOTES_SUCCESS
+import com.example.clean_notes.business.interactors.notelist.GetNumNotes.Companion.GET_NUM_NOTES_SUCCESS
 import com.example.clean_notes.di.DependencyContainer
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListStateEvent
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListViewState

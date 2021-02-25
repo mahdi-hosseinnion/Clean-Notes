@@ -7,11 +7,9 @@ import com.example.clean_notes.business.data.network.abstraction.NoteNetworkData
 import com.example.clean_notes.business.domain.model.Note
 import com.example.clean_notes.business.domain.model.NoteFactory
 import com.example.clean_notes.business.domain.state.DataState
-import com.example.clean_notes.business.interaction.common.DeleteNote
-import com.example.clean_notes.business.interaction.common.DeleteNote.Companion.DELETE_NOTE_FAILED
-import com.example.clean_notes.business.interaction.common.DeleteNote.Companion.DELETE_NOTE_SUCCESS
+import com.example.clean_notes.business.interactors.common.DeleteNote.Companion.DELETE_NOTE_FAILED
+import com.example.clean_notes.business.interactors.common.DeleteNote.Companion.DELETE_NOTE_SUCCESS
 import com.example.clean_notes.di.DependencyContainer
-import com.example.clean_notes.framework.presentation.notelist.state.NoteListStateEvent
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListStateEvent.*
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListViewState
 import kotlinx.coroutines.InternalCoroutinesApi

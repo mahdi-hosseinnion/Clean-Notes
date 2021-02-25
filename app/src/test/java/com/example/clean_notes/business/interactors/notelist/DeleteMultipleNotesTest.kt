@@ -6,11 +6,9 @@ import com.example.clean_notes.business.data.network.abstraction.NoteNetworkData
 import com.example.clean_notes.business.domain.model.Note
 import com.example.clean_notes.business.domain.model.NoteFactory
 import com.example.clean_notes.business.domain.state.DataState
-import com.example.clean_notes.business.interaction.notelist.DeleteMultipleNotes
-import com.example.clean_notes.business.interaction.notelist.DeleteMultipleNotes.Companion.DELETE_NOTES_ERRORS
-import com.example.clean_notes.business.interaction.notelist.DeleteMultipleNotes.Companion.DELETE_NOTES_SUCCESS
+import com.example.clean_notes.business.interactors.notelist.DeleteMultipleNotes.Companion.DELETE_NOTES_ERRORS
+import com.example.clean_notes.business.interactors.notelist.DeleteMultipleNotes.Companion.DELETE_NOTES_SUCCESS
 import com.example.clean_notes.di.DependencyContainer
-import com.example.clean_notes.framework.presentation.notelist.state.NoteListStateEvent
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListStateEvent.*
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListViewState
 import junit.framework.Assert.assertEquals

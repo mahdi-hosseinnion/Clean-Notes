@@ -5,7 +5,6 @@ import com.example.clean_notes.business.data.cache.abstraction.NoteCacheDataSour
 import com.example.clean_notes.business.data.network.FORCE_SEARCH_NOTES_EXCEPTION
 import com.example.clean_notes.business.domain.model.Note
 import com.example.clean_notes.business.domain.state.MessageType
-import com.example.clean_notes.business.interaction.notelist.SearchNotes
 import com.example.clean_notes.di.DependencyContainer
 import com.example.clean_notes.framework.datasource.database.ORDER_BY_ASC_DATE_UPDATED
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListStateEvent

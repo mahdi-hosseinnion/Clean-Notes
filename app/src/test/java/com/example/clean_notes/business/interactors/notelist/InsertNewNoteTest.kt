@@ -1,16 +1,13 @@
 package com.example.clean_notes.business.interactors.notelist
 
 
-import com.example.clean_notes.business.data.cache.CacheErrors
 import com.example.clean_notes.business.data.cache.abstraction.NoteCacheDataSource
 import com.example.clean_notes.business.data.network.FORCE_GENERAL_FAILURE
 import com.example.clean_notes.business.data.network.FORCE_NEW_NOTE_EXCEPTION
 import com.example.clean_notes.business.data.network.abstraction.NoteNetworkDataSource
-import com.example.clean_notes.business.domain.model.Note
 import com.example.clean_notes.business.domain.model.NoteFactory
 import com.example.clean_notes.business.domain.state.DataState
 import com.example.clean_notes.business.domain.state.MessageType
-import com.example.clean_notes.business.interaction.notelist.InsertNewNote
 import com.example.clean_notes.di.DependencyContainer
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListStateEvent
 import com.example.clean_notes.framework.presentation.notelist.state.NoteListViewState
@@ -18,7 +15,6 @@ import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.flow.FlowCollector
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.runBlocking
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import java.util.*

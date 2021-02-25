@@ -11,6 +11,8 @@ interface NoteDaoService {
 
     suspend fun searchNoteById(id: String): Note?
 
+    suspend fun getAllNotes(): List<Note>
+
     suspend fun updateNote(
         primaryKey: String,
         title: String,

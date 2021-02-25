@@ -1,4 +1,4 @@
-package com.example.clean_notes.business.interaction.common
+package com.example.clean_notes.business.interactors.common
 
 import com.example.clean_notes.business.data.cache.CacheResponseHandler
 import com.example.clean_notes.business.data.cache.abstraction.NoteCacheDataSource
@@ -7,7 +7,6 @@ import com.example.clean_notes.business.data.util.safeApiCall
 import com.example.clean_notes.business.data.util.safeCacheCall
 import com.example.clean_notes.business.domain.model.Note
 import com.example.clean_notes.business.domain.state.*
-import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
